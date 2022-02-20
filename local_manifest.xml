@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Trees -->
+ <project path="device_xiaomi_olives" name="David-538/android_device_xiaomi_olives.git" remote="github" revision="lineage-18.1" />
+ <project path="vendor_xiaomi_olives" name="David-538/proprietary_vendor_xiaomi_olives.git" remote="github" revision="lineage-18.1" />
+ <project path="kernel_xiaomi_sdm439" name="David-538/android_kernel_xiaomi_sdm439.git" remote="github" revision="a11/main" />
+ 
+</manifest>
