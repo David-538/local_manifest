@@ -2,8 +2,9 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device_xiaomi_olives" name="David-538/android_device_xiaomi_olives.git" remote="github" revision="lineage-18.1" />
- <project path="vendor_xiaomi_olives" name="David-538/proprietary_vendor_xiaomi_olives.git" remote="github" revision="lineage-18.1" />
- <project path="kernel_xiaomi_sdm439" name="David-538/android_kernel_xiaomi_sdm439.git" remote="github" revision="a11/main" />
+ <project path="device/xiaomi/olives" name="David-538/device_xiaomi_olives.git" remote="github" revision="arrow-12.0" />
+ <project path="device/xiaomi/sdm439-common" name="David-538/device_xiaomi_sdm439-common.git" remote="github" revision="12.0-new" />
+ <project path="vendor/xiaomi/olives" name="David-538/vendor_xiaomi_olives.git" remote="github" revision="12.0" />
+ <project path="kernel/xiaomi/sdm439" name="David-538/android_kernel_xiaomi_sdm439.git" remote="github" revision="a12/main" />
  
 </manifest>
