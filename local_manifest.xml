@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- Trees -->
- <project path="device/xiaomi/olives" name="David-538/device_xiaomi_olives.git" remote="github" revision="lineage" />
- <project path="device/xiaomi/sdm439-common" name="David-538/device_xiaomi_sdm439-common.git" remote="github" revision="12.0-new" />
- <project path="vendor/xiaomi/olives" name="David-538/vendor_xiaomi_olives.git" remote="github" revision="12.0" />
- <project path="vendor/xiaomi/sdm439-common" name="David-538/vendor_xiaomi_sdm439-common.git" remote="github" revision="12.0" />
- <project path="kernel/xiaomi/sdm439" name="David-538/android_kernel_xiaomi_sdm439.git" remote="github" revision="a12/main" />
+ <remote name="David-538"
+           fetch="https://github.com/David-538"/>
+ <remote name="Lineage"
+           fetch="https://github.com/LineageOS"/>
+ 
+ #Kernels
+ <project path="/kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="David-538" revision="a12/main" />
+ 
+ #Device and Common Device trees
+ <project path="device/xiaomi/olives" name="device_xiaomi_olives" remote="David-538" revision="lineage"/>
+ <project path="device/xiaomi/sdm439/common" name="device_xiaomi_sdm439-common" remote="David-538" revision="12.0-new"/>
+ 
+ #Vendor and Common Vendor trees
+ <project path="vendor/xiaomi/olives" name="vendor_xiaomi_olives" remote="David-538" revision="12.0"/>
+ <project path="vendor/xiaomi/sdm439-common" name="vendor_xiaomi_sdm439-common" remote="David-538" revision="12.0"/>
+ 
+ <!-- Bringup for FAILED: ninja: 'external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml' -->
+ <project path="kernel/xiaomi/mido" name="kernel_xiaomi_msm8953-4.9" remote="dicky" revision="lineage-17.1" />
  
 </manifest>
