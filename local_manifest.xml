@@ -7,7 +7,7 @@
            fetch="https://github.com/LineageOS"/>
  
  #Kernels
- <project path="/kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="David-538" revision="a12/main" />
+ <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="David-538" revision="a12/main" />
  
  #Device and Common Device trees
  <project path="device/xiaomi/olives" name="device_xiaomi_olives" remote="David-538" revision="lineage"/>
