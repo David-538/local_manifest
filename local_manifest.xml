@@ -11,7 +11,7 @@
  
  #Device and Common Device trees
  <project path="device/xiaomi/olives" name="device_xiaomi_olives" remote="David-538" revision="lineage"/>
- <project path="device/xiaomi/sdm439/common" name="device_xiaomi_sdm439-common" remote="David-538" revision="12.0-new"/>
+ <project path="device/xiaomi/sdm439-common" name="device_xiaomi_sdm439-common" remote="David-538" revision="12.0-new"/>
  
  #Vendor and Common Vendor trees
  <project path="vendor/xiaomi/olives" name="vendor_xiaomi_olives" remote="David-538" revision="12.0"/>
