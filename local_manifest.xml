@@ -17,6 +17,9 @@
  <project path="vendor/xiaomi/olives" name="vendor_xiaomi_olives" remote="David-538" revision="12.0"/>
  <project path="vendor/xiaomi/sdm439-common" name="vendor_xiaomi_sdm439-common" remote="David-538" revision="12.0"/>
  
+ #Qcom
+ <project path="system/qcom" name="android_system_qcom" remote="Lineage" revision="lineage-19.1" />
+ 
  <!-- Bringup for FAILED: ninja: 'external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml' -->
  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="Lineage" revision="lineage-19.0" />
  
