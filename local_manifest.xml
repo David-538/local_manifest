@@ -9,6 +9,8 @@
            fetch="https://github.com/hsx02"/>
  <remote name="msm8937"
                    fetch="https://github.com/mi-msm8937" />
+ <remote name="pxl"
+           fetch="https://github.com/PixelExperience" />
  
  <!--Kernels-->
  <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="David-538" revision="a12/main" />
@@ -34,7 +36,7 @@
  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="msm8937" revision="twelve"/>
  
  <!-- Bringup for FAILED: ninja: 'external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml' -->
- <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="Lineage" revision="lineage-19.0" />
+ <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pxl" revision="twelve"/>
  
  <!-- <remove-project name="LineageOS/platform_hardware_qcom_audio" />  -->
  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-msm8996" remote="Lineage" />
